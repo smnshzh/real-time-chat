@@ -1,0 +1,11 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat app inspired by brayden/chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  }
+}
